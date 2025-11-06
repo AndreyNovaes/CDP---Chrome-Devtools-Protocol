@@ -4,6 +4,8 @@
   "description": "Exemplos práticos e progressivos do Chrome DevTools Protocol (CDP)",
   "type": "module",
   "scripts": {
+    "test": "node test-cdp-quick.js",
+    "test:shell": "bash test-cdp-simple.sh",
     "example:01-basic": "node examples/01-basic/01-connect.js",
     "example:02-screenshot": "node examples/01-basic/02-screenshot.js",
     "example:03-execute-js": "node examples/01-basic/03-execute-javascript.js",
