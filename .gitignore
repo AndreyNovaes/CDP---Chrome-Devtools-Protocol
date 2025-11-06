@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Screenshots e outputs gerados
+*.png
+*.jpg
+*.jpeg
+*.pdf
+screenshot-*.png
+screenshot-*.jpg
+form-automation-result.png
+example-*.pdf
+relatorio-*.pdf
+
+# JSON outputs
+links.json
+*.json.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporários
+tmp/
+temp/
+.cache/
+
+# Chrome user data
+chrome-debug/

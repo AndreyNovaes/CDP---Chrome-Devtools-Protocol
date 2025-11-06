@@ -1,0 +1,34 @@
+{
+  "name": "chrome-devtools-protocol-examples",
+  "version": "1.0.0",
+  "description": "Exemplos práticos e progressivos do Chrome DevTools Protocol (CDP)",
+  "type": "module",
+  "scripts": {
+    "example:01-basic": "node examples/01-basic/01-connect.js",
+    "example:02-screenshot": "node examples/01-basic/02-screenshot.js",
+    "example:03-execute-js": "node examples/01-basic/03-execute-javascript.js",
+    "example:04-network": "node examples/02-intermediate/01-network-interception.js",
+    "example:05-performance": "node examples/02-intermediate/02-performance-metrics.js",
+    "example:06-cookies": "node examples/02-intermediate/03-cookies-storage.js",
+    "example:07-debugging": "node examples/03-advanced/01-debugging.js",
+    "example:08-automation": "node examples/03-advanced/02-form-automation.js",
+    "example:09-pdf": "node examples/03-advanced/03-pdf-generation.js",
+    "exercise:01": "node exercises/exercise-01.js",
+    "exercise:02": "node exercises/exercise-02.js",
+    "exercise:03": "node exercises/exercise-03.js"
+  },
+  "keywords": [
+    "chrome",
+    "devtools",
+    "protocol",
+    "cdp",
+    "automation",
+    "websocket"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {}
+}
